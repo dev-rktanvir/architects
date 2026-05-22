@@ -1,0 +1,108 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* colors */
+:root {
+    --clr-primary: #FF900E;
+    --clr-heading: #131313;
+    --clr-text: #727272;
+    --clr-card-heading: #424242;
+    --clr-bg: #FFF4E7;
+    --clr-white: #ffffff;
+}
+
+/* Global style */
+body {
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5rem;
+}
+
+/* Primary button */
+.primary-btn {
+    border-radius: 8px;
+    padding: 20px 25px;
+    background-color: var(--clr-primary);
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--clr-white);
+    border: none;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* section title */
+.section-title {
+    font-weight: 700;
+    font-size: 2.8125rem;
+    color: var(--clr-heading);
+    margin-bottom: 24px;
+}
+
+/* Text style */
+.text {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--clr-text);
+}
+
+/* Image */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Flex property */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* Grid property */
+.grid {
+    display: grid;
+}
+
+.grid-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
