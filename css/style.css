@@ -258,3 +258,37 @@
     font-weight: 600;
     color: var(--clr-text);
 }
+
+/* =========================
+   Sponsors Section
+========================= */
+.sponsors-section {
+    padding-bottom: 130px;
+}
+
+/* Section Heading */
+.sponsors-heading {
+    max-width: 540px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+/* Sponsors Wrapper */
+.sponsors-wrapper {
+    gap: 40px;
+}
+
+/* Brand Logo */
+
+.sponsor-brand img {
+    width: auto;
+    max-width: 160px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.sponsor-brand img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}

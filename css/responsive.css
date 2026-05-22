@@ -56,6 +56,15 @@
     .facts-cards {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* =========================
+   Sponsors Section
+========================= */
+
+    .sponsors-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 40px;
+    }
 }
 
 
@@ -187,5 +196,22 @@
 
     .fact-card p {
         font-size: 1rem;
+    }
+
+    /* =========================
+   Sponsors Section
+========================= */
+
+    .sponsors-section {
+        padding-bottom: 80px;
+    }
+
+    .sponsors-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 35px;
+    }
+
+    .sponsor-brand img {
+        max-width: 140px;
     }
 }
