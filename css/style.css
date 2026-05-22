@@ -1,0 +1,77 @@
+/* =========================
+   Header
+========================= */
+.header {
+    background-color: var(--clr-bg);
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+/* =========================
+   Navbar
+========================= */
+.navbar {
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 2.8125rem;
+    font-weight: 700;
+    color: var(--clr-heading);
+    text-decoration: none;
+}
+
+.nav-links {
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--clr-card-heading);
+    font-size: 1.125rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--clr-primary);
+}
+
+.mobile-menu{
+    width: 24px;
+    height: auto;
+    display: none;
+}
+
+/* =========================
+   Hero Section
+========================= */
+.hero {
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.75rem;
+    color: var(--clr-heading);
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    margin-bottom: 32px;
+}
+
+.hero-image {
+    margin-top: 50px;
+}
+
+.hero-image img {
+    border-radius: 8px;
+}

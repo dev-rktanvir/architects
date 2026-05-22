@@ -1,0 +1,61 @@
+/* =========================
+   Tablet Devices
+========================= */
+@media screen and (max-width: 992px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-title {
+        font-size: 3.25rem;
+        line-height: 4rem;
+    }
+}
+
+
+/* =========================
+   Mobile Devices
+========================= */
+@media screen and (max-width: 576px) {
+
+    .header {
+        padding-top: 30px;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .navbar {
+        margin-bottom: 60px;
+        flex-direction: row;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+    }
+
+    .hero-text {
+        font-size: 0.95rem;
+    }
+
+    .primary-btn {
+        padding: 16px 22px;
+        font-size: 1rem;
+    }
+
+    .hero-image {
+        margin-top: 40px;
+    }
+}
