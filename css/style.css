@@ -206,3 +206,55 @@
     font-size: 1.5rem;
     font-weight: 500;
 }
+
+/* =========================
+   Facts Section
+========================= */
+.facts-section {
+    padding-bottom: 130px;
+}
+
+/* Section Heading */
+.facts-heading {
+    max-width: 540px;
+    margin-bottom: 80px;
+}
+
+/* Cards */
+.facts-cards {
+    gap: 24px;
+}
+
+/* Single Card */
+.fact-card {
+    border: 1px solid var(--clr-primary);
+    border-radius: 8px;
+    padding: 45px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.fact-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Icon */
+.fact-card img {
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+/* Number */
+.fact-card h3 {
+    font-size: 2.8125rem;
+    font-weight: 600;
+    color: var(--clr-card-heading);
+    margin-bottom: 10px;
+}
+
+/* Text */
+.fact-card p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--clr-text);
+}

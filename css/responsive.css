@@ -49,6 +49,13 @@
         transform: translateX(-50%);
         bottom: -40px;
     }
+
+    /* =========================
+   Facts Section
+========================= */
+    .facts-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -152,5 +159,33 @@
 
     .experience-badge p {
         font-size: 1.2rem;
+    }
+
+    /* =========================
+   Facts Section
+========================= */
+
+    .facts-section {
+        padding-bottom: 80px;
+    }
+
+    .facts-heading {
+        margin-bottom: 50px;
+    }
+
+    .facts-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fact-card {
+        padding: 35px 20px;
+    }
+
+    .fact-card h3 {
+        font-size: 2.2rem;
+    }
+
+    .fact-card p {
+        font-size: 1rem;
     }
 }
