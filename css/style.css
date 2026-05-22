@@ -123,3 +123,86 @@
 .quick-list-text {
     margin-bottom: 32px;
 }
+
+/* =========================
+   Features Section
+========================= */
+.features-section {
+    padding-bottom: 130px;
+}
+
+.features-wrapper {
+    gap: 120px;
+}
+
+/* Left Content */
+.features-content {
+    flex: 1;
+}
+
+.features-title {
+    border-left: 5px solid var(--clr-primary);
+    padding-left: 20px;
+    line-height: 3.5rem;
+    margin-bottom: 24px;
+}
+
+.features-text {
+    margin-bottom: 30px;
+}
+
+/* Feature Cards */
+.feature-cards {
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: var(--clr-white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--clr-heading);
+    margin-bottom: 10px;
+}
+
+/* Right Image */
+.features-image {
+    flex: 1;
+    position: relative;
+}
+
+.features-image img {
+    border-radius: 8px;
+}
+
+/* Experience Badge */
+.experience-badge {
+    position: absolute;
+    left: -60px;
+    bottom: -50px;
+
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+
+    padding: 45px 42px;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.experience-badge h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 10px;
+}
+
+.experience-badge p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}

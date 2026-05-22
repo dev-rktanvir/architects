@@ -26,6 +26,29 @@
         max-width: 100%;
         text-align: center;
     }
+
+    /* =========================
+   Features Section
+========================= */
+
+    .features-wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .features-content {
+        width: 100%;
+    }
+
+    .features-image {
+        width: 100%;
+    }
+
+    .experience-badge {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -40px;
+    }
 }
 
 
@@ -90,5 +113,44 @@
     .quick-list-title {
         font-size: 2.2rem;
         line-height: 3rem;
+    }
+
+    /* =========================
+   Features Section
+========================= */
+
+    .features-section {
+        padding-bottom: 90px;
+    }
+
+    .features-title {
+        font-size: 2.2rem;
+        line-height: 3rem;
+        padding-left: 15px;
+    }
+
+    .feature-card {
+        padding: 24px 20px;
+    }
+
+    .feature-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .experience-badge {
+        position: static;
+        transform: unset;
+        margin-top: 30px;
+
+        padding: 30px 25px;
+    }
+
+    .experience-badge h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .experience-badge p {
+        font-size: 1.2rem;
     }
 }
