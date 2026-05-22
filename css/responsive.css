@@ -214,4 +214,21 @@
     .sponsor-brand img {
         max-width: 140px;
     }
+
+    /* =========================
+   Footer
+========================= */
+
+    .footer {
+        padding-bottom: 60px;
+    }
+
+    .footer-content {
+        padding: 30px 16px;
+    }
+
+    .footer-content p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
 }

@@ -292,3 +292,25 @@
     filter: grayscale(0%);
     opacity: 1;
 }
+
+/* =========================
+   Footer
+========================= */
+.footer {
+    padding-bottom: 130px;
+}
+
+.footer-content {
+    background-color: var(--clr-bg);
+
+    padding: 40px 20px;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--clr-card-heading);
+}
